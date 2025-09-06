@@ -1,0 +1,32 @@
+{
+  "name": "take_feedback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samri-A/Take_Feedback.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Samri-A/Take_Feedback/issues"
+  },
+  "homepage": "https://github.com/Samri-A/Take_Feedback#readme",
+  "dependencies": {
+    "@langchain/langgraph": "^0.4.9",
+    "@langchain/mcp-adapters": "^0.6.0",
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "db-migrate-pg": "^1.5.2",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "langchain": "^0.3.32",
+    "pg": "^8.16.3",
+    "zod": "^3.25.76"
+  }
+}
